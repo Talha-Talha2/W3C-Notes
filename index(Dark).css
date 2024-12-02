@@ -82,10 +82,6 @@ a {
     display: inline;
 }
 
-.TITLE {
-    text-align: center;
-}
-
 .pagelinks {
     text-align: center;
     margin-bottom: 15px; /* Add space below links */
@@ -94,4 +90,8 @@ a {
 a:hover {
     color: rgb(77, 168, 230); /* Slightly darker blue for hover */
     text-decoration: underline;
+}
+
+.TITLE {
+    text-align: center;
 }
