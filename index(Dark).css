@@ -82,6 +82,10 @@ a {
     display: inline;
 }
 
+.TITLE {
+    text-align: center;
+}
+
 .pagelinks {
     text-align: center;
     margin-bottom: 15px; /* Add space below links */
