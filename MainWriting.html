@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="Abdi.css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Writing for Web Accessibility</title>
+    
+</head>
+<body>
+
+<!--Navbar Section-->
+    <nav class="navbar"> <!--Nav tag is for site navigation that's why I used it. I made navbar a class since it will be one in all my other pages-->
+        <div class="navbar_container"> <!--Used the div tag since its just easy to style with CSS and doesn't really have any unique effects or capacities, its just a general code container.-->
+            
+            <a href="/" id="navbar_logo"> Writing for Web Accessibility</a> <!--/ in href means that clicking on the link takes to the index page of the site.The logo is just text. the <a> anchor tag is for hyperlinks. Id helps in CSS styling -->
+            
+                <div class="navbar_toggle" id="mobile-menu">
+                <span class="bar"></span> <!--Span stays in line with text but is easy to style it on its own-->
+                <span class="bar"></span>
+                <span class="bar"></span>
+            
+            </div>
+            
+            <ul class="navbar_menu"> <!--ul tag is for unordered lists, it includes ordered list items. I also removed its bullet points in CSS-->
+
+                <li class="navbar_item"> <!--li tag is an ordered list because I care about the order of the following items-->
+                    <a href="/" class="navbar_links">Home</a>
+                </li>
+                
+                <li class="navbar_item"> <!--li tag is an ordered list because I care about the order of the following items-->
+                    <a href="/" class="navbar_links">Designing</a>
+                </li>
+
+                <li class="navbar_item"> <!--li tag is an ordered list because I care about the order of the following items-->
+                    <a href="/" class="navbar_links">Bad Writing</a> <!--Onclick is an event picked up by HTML, ScrollToBottom is a function which I created in JS and linked here. I styled it in the HTML page because i just wanted to change the mouse when it hovers-->
+                </li>
+
+                <li class="navbar_btn"> <!--is going to be a button hence I used a different class for its CSS-->
+                    <a href="/" class="navbar_links">Developing</a>
+                </li>
+                
+            </ul>
+        </div>
+        <hr>
+    </nav>
+        <!--Main Section-->
+        <div class="main">
+            <div class="main_container">
+                <div class="main_content">
+                    <h1>Writing for web assceibility</h1>
+                    <h2>Page Title</h2>
+                    <p>A page title is crucial to a website it showcases the page content whilst distinguishing it from the other pages.  The page title really helps the user understand what web page he is on and is often the same as the main heading. For example, for a specific recipe such as Noodles its page title will be the same as the Noodles (the heading</p>
+                    <div class="main_img_container">
+                    <img src="Title.png" alt="Image_of_Text" id="main_img">
+                </div>
+                    <h2>Headings</h2>
+                    <p>Headings are used to group related paragraphs and clearly help the user understand the content, while describing its sections. An effective heading gives a good summary to the content </p>
+                    <div class="main_img_container">
+                    <img src="Heading.png" alt="Image_of_Text" id="main_img">
+                </div>
+                    <h2>Link Text</h2>
+                    <p>Link text has to be effective at describing the contents of the link target. Avoid using link text, such as “click here” without indicating relevant information. Add information such as Click here to view the documents so the user understands where the link takes you. </p>
+                    <div class="main_img_container">
+                    <img src="Differences.png" alt="Image_of_Text" id="main_img">
+                </div>
+                    <h2>Meaningful</h2>
+                    <p>For every image, write text which provides information or the function of the image, this helps the user better interpret the function</p>
+                    <h2>Create Transcripts and captions for multimedia</h2>
+                    <p>Providing a transcript further helps the user better interpret specific audio files and enables them to get more out of them. </p>
+                    
+                    <h2>Provide clear insturctions</h2>
+                    <p>Provide clear instructions about each aspect of functionality for your page helping the user understand this can be achieved by avoiding unnecessary technical language. And showcasing specific input requirements, such as date formats. </p>
+                    <h2>Keep content clear concise </h2>
+                    <p>Use simple and straightforward language. </p>
+
+            
+
+
+<!--Footer-->
+    <div class="footer_container">
+                    <h2>Credit:</h2>
+                    <h3>Coded by Mohab Elshaboury, Data by Abdullah Ismaail. for Year 12 Software engineering PWA Task</h3>
+            </div>
+        </div>
+    </div>
+
+
+<!--Linking the java script files to my HTML-->
+    <!-- <script type="module" src="db.js"></script> -->    
+
+
+</body>
+</html>
+
+
+<!--Linking the java script files to my HTML-->
+    <!-- <script type="module" src="db.js"></script> -->    
+
+
+</body>
+</html>
