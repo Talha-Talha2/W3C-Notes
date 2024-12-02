@@ -90,12 +90,3 @@ a:hover {
     color: rgb(0, 86, 179);
     text-decoration: underline;
 }
-
-/* Paragraph styling */
-p {
-    font-size: 17.5px;
-    margin: 10px auto; /* Reduced vertical spacing for paragraphs */
-    max-width: 800px;
-    text-align: center;
-    line-height: 1.5;
-}
