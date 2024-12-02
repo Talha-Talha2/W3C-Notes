@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>W3C - Developing for web accessibility</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="developing_for_web.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism.min.css" rel="stylesheet" />
+    </head>
+    <body>
+        
+        <h1><a href="index.html" style="text-decoration: underline; color: black; font-weight: 400; font-size: 0.8em;">Web Accessibility Initiative</a> | <span class="header">Developing for web accessibility</span></h1>
+
+        <h2 style="margin-top: 2.5em;">Preface</h2>
+        <p style="font-size: 1.15em;">This page introduces some basic considerations to help you get started developing web content that is more accessible to people with disabilities.<br>These tips are good practice to help you meet Web Content Accessibility Guidelines (WCAG) requirements.</p>
+        
+        <hr>
+
+        <div class="information">
+
+            <div class="list" style="margin-right: 5em;">
+            <h2 style="margin-top: 2.5em;">Key points</h2>
+            <ul>
+                <li>Web accessibility is needed to <b>help those with disabilities</b></li>
+                <li>There is the <a href="https://www.w3.org/TR/WCAG21/" style="text-decoration: underline; color: #8678f9;">Web content accessibility guidelines (WCAG)</a> which developers should follow</li>
+                <li>Developers should have the <b>order of the code</b> be the same as the order in which the page is read.</li>
+                <li>Code should be in a way that makes it <b>fit on a variety of screen sizes</b> (phone, laptop, etc)</li>
+                <li>Use <code class="language-markup">tabindex = 0</code> in the CSS file to make important buttons keyboard accessible</li>
+                <li>Use <b>as little CAPTCHA</b> as possible, as it can cause problems for people with disabilities</li>
+                <li>Identify and use user's <b>native language</b> to make user experience more comfortable</li>
+            </ul>
+            </div>
+            
+            <div class="list">
+                <h2 style="margin-top: 2.5em;">Development Standards</h2>
+                <ul>
+                    <li>Include alternative text for images. For example, have an <code class="language-markup">alt="..."</code> on the images so they know what it is</li>
+                    <li>Identify page language by including such code in your HTML: <code class="language-markup">&lt;html = lang="en"></code> </li>
+                    <li>Have <b>each HTML element have its own class</b> so that you can edit it easier with CSS</li>
+                    <li><b>Order the CSS and HTML</b> in the order it is displayed as the page is meant to be read</li>
+                    <li>Allowing for users to understand your website is crucial. When you add in features that aren't as widely used,<br>they can be confusing for some people. <b>Providing insight to what these features do</b> can allow for an easier user<br>experience when interacting with your website</li>
+                    <li>Ensure that <b>all interactive elements are keyboard accessible</b>.  Make it so that when you click a specific button,<br> an action happen which you can also do with your mouse.</li>
+                    <li>For CAPTCHA: Provide more than 2 ways to solve it, and do not require CAPTCHAs for authorised users.</li>
+                </ul>
+            </div>
+
+        </div>
+        
+        <hr style="margin-top: 4em;">
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/prism.min.js"></script>
+    </body>
+</html>
