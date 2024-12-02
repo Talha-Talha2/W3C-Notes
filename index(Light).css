@@ -86,6 +86,10 @@ a {
     text-align: center;
 }
 
+.TITLE {
+    text-align: center;
+}
+
 a:hover {
     color: rgb(0, 86, 179);
     text-decoration: underline;
