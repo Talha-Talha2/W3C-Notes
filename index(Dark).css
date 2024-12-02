@@ -91,13 +91,3 @@ a:hover {
     color: rgb(77, 168, 230); /* Slightly darker blue for hover */
     text-decoration: underline;
 }
-
-/* Paragraph styling */
-p {
-    font-size: 17.5px;
-    margin: 10px auto; /* Reduced vertical spacing for paragraphs */
-    max-width: 800px;
-    text-align: center;
-    line-height: 1.5;
-    color: rgb(211, 211, 211); /* Light gray for dark mode paragraphs */
-}
